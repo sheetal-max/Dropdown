@@ -1,0 +1,48 @@
+/*body {
+    background-color:aqua; 
+}
+img{
+    margin-top:20px;
+    position:relative;
+    position: absolute;
+    position:sticky;
+   top:0px;
+    left:0px; 
+}*/
+body {
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+    padding:20px;
+    display:block;
+}
+a:hover{
+    background-color:purple;
+    color:red;
+}
+nav{
+    background-color: orange;
+}
+#cont{
+    display:flex;
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    
+    
+}
+#menu{
+    list-style-type:none;
+    padding:0;
+    position: absolute;
+    /*top:164px;*/
+    display:none;
+}
+
+#drop:hover #menu {
+    display:block;
+}
